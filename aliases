@@ -1,12 +1,30 @@
 #!/bin/bash
 # set aliases
+alias ..='cd ..'
+alias tmux='tmux -2'
+alias cls='clear'
+alias ll='ls -la'
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gca='git commit -a'
+alias gcm='git commit -m'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias gp='git pull'
+alias push='git push'
+alias pushu='git push -u'
+alias gr='git rebase '
+alias gm='git merge '
+alias me='cd ~/'
+# Additions
 alias e=exit
 alias g=git
 alias m=make
-alias c=clear
 alias b=brew
 alias bc="brew cask"
 alias la="ls -laht"
-alias rb="source ~/.bash_profile"
-alias ps="ps aux | grep --color"
-alias fn="find . -iname "
+alias sob="source ~/.bash_profile"

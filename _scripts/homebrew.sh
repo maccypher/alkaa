@@ -1,5 +1,5 @@
 #!/bin/bash
-source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/_helper.sh" #load helper
+source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/../_helper.sh" #load helper
 
 xcode-select --install # make sure xcode command line tools are installed
 prompt "xcode installation finished?"

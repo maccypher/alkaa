@@ -17,6 +17,9 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export TERM=xterm-256color
 
+source ~/.nvm/nvm.sh # activate nvm
+#nvm use 0.11 # active node version
+
 # load bashrc, if available
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
@@ -32,9 +35,5 @@ if [ -z "$TMUX" ]; then # if tmux isnt running, start it
   tmux
 fi
 
-# activate nvm and show current used node version
-source ~/.nvm/nvm.sh
-echo -e "\033[1;30mUsed node version\033[0;0m: \033[0;36m$(nvm current)\033[0;0m"
-
 # show configured git user
-echo -e "Working as \033[0;36m$(git_user)\033[0;0m[\033[1;30m$(git_email)\033[0;0m]"
+echo -e "Working as \033[40;96m$(git_user)\033[0;0m[\033[46;30m$(git_email)\033[0;0m]"
