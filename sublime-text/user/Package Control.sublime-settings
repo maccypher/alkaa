@@ -1,20 +1,23 @@
 {
+	"auto_upgrade_last_run": null,
+	"installed_dependencies":
+	[
+		"bz2"
+	],
 	"installed_packages":
 	[
-		"BracketHighlighter",
-		"Case Conversion",
+		"Clipboard History",
 		"CoffeeScript",
-		"DocBlockr",
-		"GitGutter",
 		"Handlebars",
+		"HTML5",
+		"HTMLAttributes",
 		"Jade",
 		"LESS",
+		"MarkdownEditing",
+		"Minifier",
 		"Package Control",
-		"Pretty JSON",
-		"Sass",
-		"SublimeGit",
-		"Theme - amCoder",
-		"Theme - Soda",
-		"Tomorrow Color Schemes"
+		"SublimeLinter",
+		"Tag",
+		"Twig"
 	]
 }

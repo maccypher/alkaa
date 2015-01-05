@@ -4,52 +4,37 @@
 <dict>
 	<key>customSites</key>
 	<dict>
-		<key>05EE7A29-634E-4193-B567-49C282A4763D</key>
+		<key>60299023-4CB4-4EE9-9AB8-15A509DD58D9</key>
 		<dict>
 			<key>enabled</key>
 			<true/>
 			<key>keyword</key>
-			<string>gde</string>
+			<string>ad</string>
 			<key>plusSpaces</key>
 			<false/>
 			<key>text</key>
-			<string>google de -&gt; en</string>
+			<string>Jira</string>
 			<key>url</key>
-			<string>https://translate.google.de/#de/en/{query}</string>
+			<string>https://jiratrademob.atlassian.net/browse/AD-{query}</string>
 			<key>utf8</key>
 			<true/>
 		</dict>
-		<key>34D488F9-4BED-424F-85C5-B25241001BA8</key>
+		<key>6780F5E6-68C8-46DA-A95E-0E0778320FB6</key>
 		<dict>
 			<key>enabled</key>
 			<true/>
 			<key>keyword</key>
-			<string>ged</string>
+			<string>gt</string>
 			<key>plusSpaces</key>
 			<false/>
 			<key>text</key>
-			<string>google en -&gt; de</string>
+			<string>Google Translate</string>
 			<key>url</key>
-			<string>https://translate.google.de/#en/de/{query}</string>
+			<string>https://translate.google.de/?q={query}</string>
 			<key>utf8</key>
 			<true/>
 		</dict>
-		<key>538D43F8-9ACC-4653-888A-F1206CEAD33A</key>
-		<dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyword</key>
-			<string>bo</string>
-			<key>plusSpaces</key>
-			<false/>
-			<key>text</key>
-			<string>bower</string>
-			<key>url</key>
-			<string>http://bower.io/search/?q={query}</string>
-			<key>utf8</key>
-			<true/>
-		</dict>
-		<key>A382FC3A-8714-4412-8B26-1D4EDEA31B56</key>
+		<key>95CC237A-10C4-48F8-B3FD-B7A63439AAE3</key>
 		<dict>
 			<key>enabled</key>
 			<true/>
@@ -58,24 +43,9 @@
 			<key>plusSpaces</key>
 			<false/>
 			<key>text</key>
-			<string>github</string>
+			<string>GitHub (TM)</string>
 			<key>url</key>
-			<string>https://github.com/search?utf8=✓&amp;q={query}</string>
-			<key>utf8</key>
-			<true/>
-		</dict>
-		<key>C5AEAD0C-DDFE-4A7E-A866-74A7CE89E6A7</key>
-		<dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyword</key>
-			<string>npm</string>
-			<key>plusSpaces</key>
-			<false/>
-			<key>text</key>
-			<string>NPM</string>
-			<key>url</key>
-			<string>https://www.npmjs.org/search?q={query}</string>
+			<string>https://github.com/trademob/tm-{query}</string>
 			<key>utf8</key>
 			<true/>
 		</dict>

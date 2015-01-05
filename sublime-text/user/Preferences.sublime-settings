@@ -1,23 +1,11 @@
 {
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow.tmTheme",
-	"file_exclude_patterns":
-	[
-	],
-	"folder_exclude_patterns":
-	[
-	],
-	"font_face": "Source Code Pro",
-	"font_size": 13,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_face": "SourceCodePro-Light",
+	"font_size": 14.0,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Pretty JSON",
-		"SublimeCodeIntel"
+		"Vintage"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
 	"tab_size": 2,
-	"theme": "Brackets.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"use_tab_stops": false
+	"word_wrap": false
 }
